@@ -39,15 +39,15 @@ Go · hashicorp/raft · Kubernetes operator (kubebuilder) · Helm · Argo CD (Gi
 
 **FinOps Intern, Intact Financial Corporation** (Sept. 2026 to present, Montreal)
 
-• Cut ETL cost by∼95% to $18/mo (∼$4K/yr saved) by merging 5 GitHub Actions workflows and 2 always-on
+- Cut ETL cost by∼95% to $18/mo (∼$4K/yr saved) by merging 5 GitHub Actions workflows and 2 always-on
 Airflow DAGs into one serverless event-driven pipeline (EventBridge cron, dbt on ECS Fargate) that unifies 8 cloud,
 AI, and SaaS sources, ends 3-month-stale Entra ID data, and onboards new ones as a single task definition.
-• Built an internal FastAPI/React showback tool on the pipeline that gave all Intact teams visibility into
+- Built an internal FastAPI/React showback tool on the pipeline that gave all Intact teams visibility into
 MongoDB/HashiCorp spend before chargeback, presented to VPs, SVPs, and Directors.
-• Made releases safe and failures visible by gating PRs on 352+ unit/E2E tests and 90% coverage, shipping
+- Made releases safe and failures visible by gating PRs on 352+ unit/E2E tests and 90% coverage, shipping
 images to ECR with probe-verified rollbacks, running a 3-stage Terraform CI with comment-triggered apply, plus
 CloudWatch failure/freshness alarms with SNS alerts.
-• Made a sluggish internal LLM usage dashboard (tracking 11,000+ employees) seamless by speeding up 11
+- Made a sluggish internal LLM usage dashboard (tracking 11,000+ employees) seamless by speeding up 11
 production API endpoints a median 3.1x (up to 14.9x) with caching, SQL indexing, and query rewrites.
 
 ---
