@@ -37,7 +37,7 @@ Go · hashicorp/raft · Kubernetes operator (kubebuilder) · Helm · Argo CD (Gi
 
 ## 💼 Experience
 
-**FinOps Intern, Intact Financial Corporation** (Sept. 2026 to present, Montreal)
+**FinOps Intern, Intact Financial Corporation** (Sept. 2026 to Dec. 2026, Montreal)
 
 - Cut ETL cost by∼95% to $18/mo (∼$4K/yr saved) by merging 5 GitHub Actions workflows and 2 always-on
 Airflow DAGs into one serverless event-driven pipeline (EventBridge cron, dbt on ECS Fargate) that unifies 8 cloud,
