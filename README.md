@@ -39,10 +39,16 @@ Go · hashicorp/raft · Kubernetes operator (kubebuilder) · Helm · Argo CD (Gi
 
 **FinOps Intern, Intact Financial Corporation** (Sept. 2026 to present, Montreal)
 
-- Cut multi-cloud and AI ETL cost by about 95% to $18/month (about $4K/year saved) by consolidating 5 GitHub Actions workflows and 2 always-on Airflow DAGs into EventBridge cron and a single dbt ECS task, with CloudWatch failure and freshness alerts
-- Gave procurement its first AI spend visibility against contract commitments for 3,500+ Copilot and Devin users, projecting 71% savings on overage fees, with a serverless API and ETL (12,800+ rows per upload in 6 s) and no public database or compute endpoints
-- Sped up 11 production API endpoints by a median 3.1x (up to 14.9x) on a platform tracking LLM usage across 11,000+ employees, using Redis caching, SQL indexing and query rewrites
-- Built a serverless Terraform template reused across 2 platforms, with GitHub Actions CI/CD deploying Lambda and Step Functions to rnd and prod, gating every PR on 352+ unit and E2E tests and 90% coverage
+• Cut ETL cost by∼95% to $18/mo (∼$4K/yr saved) by merging 5 GitHub Actions workflows and 2 always-on
+Airflow DAGs into one serverless event-driven pipeline (EventBridge cron, dbt on ECS Fargate) that unifies 8 cloud,
+AI, and SaaS sources, ends 3-month-stale Entra ID data, and onboards new ones as a single task definition.
+• Built an internal FastAPI/React showback tool on the pipeline that gave all Intact teams visibility into
+MongoDB/HashiCorp spend before chargeback, presented to VPs, SVPs, and Directors.
+• Made releases safe and failures visible by gating PRs on 352+ unit/E2E tests and 90% coverage, shipping
+images to ECR with probe-verified rollbacks, running a 3-stage Terraform CI with comment-triggered apply, plus
+CloudWatch failure/freshness alarms with SNS alerts.
+• Made a sluggish internal LLM usage dashboard (tracking 11,000+ employees) seamless by speeding up 11
+production API endpoints a median 3.1x (up to 14.9x) with caching, SQL indexing, and query rewrites.
 
 ---
 
